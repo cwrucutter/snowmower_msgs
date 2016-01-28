@@ -46,9 +46,12 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Generate messages in the 'msg' folder
 add_message_files(
+  DIRECTORY msg
   FILES
   EncMsg.msg
   DecaWaveMsg.msg
+  ObstacleMsg.msg
+  ObstacleArray.msg
 )
 
 ## Generate services in the 'srv' folder
